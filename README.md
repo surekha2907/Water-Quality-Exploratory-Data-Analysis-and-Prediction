@@ -14,6 +14,19 @@ The objective is to evaluate the potability of a water sample for drinking purpo
 9. Turbidity:Turbidity indicates the presence of solid matter in water, with WHO recommending levels below 5.00 NTU.
 10. Potability:Indicates if water is safe for human consumption where 1 means Potable and 0 means Not potable.
 
+# Process Flow
+
+1. Data Collection
+2. Identify Key Water Quality Parameters
+3. Data Cleaning & Preprocessing
+4. Exploratory Data Analysis (Statistics, Visualize data)
+5. Explore Correlations
+6. Machine Learning Algorithm Selection
+7. Model Training & Evaluation
+8. Visualization and Interpretation
+9. Incorporate model insights
+
+
 # Data Cleaning and Preparation
 The first step in this EDA project is to clean and prepare the data for analysis. This includes tasks such as handling missing values, detecting and correcting outliers, and transforming data into appropriate formats.
 We use the following libraries to clean and prepare the data:
@@ -24,7 +37,7 @@ For Visualization:
 Seaborn
 Matplotlib
 
-Initial Analysis
+# Initial Analysis
 With the exception of the target feature, all other features within the dataset consist of floating-point values, indicating their continuous nature. 
 A potential solution is to transform the Potability feature into a categorical variable, allowing for a more structured and meaningful representation in the analysis. 
 This conversion can facilitate a better understanding of the data and its potential impact on the target variable.
