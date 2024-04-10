@@ -11,3 +11,9 @@ For Visualization:
 Seaborn
 Matplotlib
 
+# Initial Analysis
+With the exception of the target feature, all other features within the dataset consist of floating-point values, indicating their continuous nature. 
+A potential solution is to transform the Potability feature into a categorical variable, allowing for a more structured and meaningful representation in the analysis. 
+This conversion can facilitate a better understanding of the data and its potential impact on the target variable.
+
+
