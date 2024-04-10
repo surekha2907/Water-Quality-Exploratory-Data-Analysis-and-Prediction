@@ -6,6 +6,7 @@ The first step in this EDA project is to clean and prepare the data for analysis
 We use the following libraries to clean and prepare the data:
 Pandas
 Numpy
+
 For Visualization:
 Seaborn
 Matplotlib
