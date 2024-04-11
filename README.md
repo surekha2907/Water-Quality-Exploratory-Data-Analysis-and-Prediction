@@ -42,6 +42,13 @@ With the exception of the target feature, all other features within the dataset 
 A potential solution is to transform the Potability feature into a categorical variable, allowing for a more structured and meaningful representation in the analysis. 
 This conversion can facilitate a better understanding of the data and its potential impact on the target variable.
 
+# SMOTE
+The data was highly imbalanced, hence we used Synthetic Minority Oversampling TEchnique, or SMOTE for short to balance the data.
+
+# Models used for training
+1. RANDOM FOREST CLASSIFIER
+2. DECISION TREE 
+
 # Conclusion
 The performance metrics of the machine learning models employed in our analysis showcase varying degrees of accuracy. The Decision Tree model achieved an accuracy of 72%, while the Random Forest Classifier demonstrated a higher accuracy at 79%. 
 These findings provide valuable insights into the predictive capabilities of these models, laying the foundation for informed decision-making in our analytical pursuits.
